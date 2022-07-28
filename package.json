@@ -1,0 +1,38 @@
+{
+  "name": "practice-markov-chain-npm-packages",
+  "description": "Practice Markov Chain npm Packages",
+  "private": true, 
+  "type": "module",
+  "scripts": {
+    "gen": "node ./generate-input-text.js",
+    "j": "node ./js-markov.js",
+    "k": "node ./kuromoji.js",
+    "m": "node ./mecab.js",
+    "t": "node ./tiny.js"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/practice-markov-chain-npm-packages#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/practice-markov-chain-npm-packages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/practice-markov-chain-npm-packages/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  },
+  "dependencies": {
+    "@hideokamoto/markov-chain-kuromoji": "0.2.3",
+    "@hideokamoto/markov-chain-tiny": "0.1.0",
+    "js-markov": "3.0.3",
+    "markov-chain-mecab": "0.1.6"
+  },
+  "devDependencies": {
+    "axios": "0.27.2",
+    "iconv": "3.0.1",
+    "jsdom": "20.0.0"
+  }
+}
